@@ -1,0 +1,21 @@
+Source: focuswriter
+Section: editors
+Priority: optional
+Maintainer: Graeme Gott <graeme@gottcode.org>
+Build-Depends: cdbs, debhelper (>= 7), imagemagick, libqt4-dev, libao-dev, libhunspell-dev, libzip-dev, pkg-config
+Suggests: hunspell-dictionary, myspell-dictionary
+Standards-Version: 3.8.4
+Homepage: http://gottcode.org/focuswriter/
+
+Package: focuswriter
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: A fullscreen, distraction-free writing program
+ A fullscreen writing program where you can customize your
+ environment by changing the font, colors, and background image
+ to add ambiance as you type. FocusWriter features an on-the-fly
+ updating wordcount, optional auto-save, optional daily goals,
+ and toolbars that hide away to allow you to focus more clearly.
+ Additionally, when you open the program your current work in
+ progress will automatically load and position you at the end
+ of your document, so that you can immediately jump back in.
